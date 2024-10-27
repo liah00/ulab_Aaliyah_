@@ -1,0 +1,36 @@
+1)pwd
+2)you should use "ls". It would list patterns.txt and symmetry.py
+3)nano patterns.txt
+4)cat patterns.txt
+5)diff patterns.txt symmetry.txt
+6)mv patterns.txt ~/math/calculus/
+7) rm -m triangle.txt
+8)cd math
+9)git init
+10)git remote add math <insert git URL>
+11)cp ~/music/symmetry.txt .
+12)Use "git status" to see whether symmetry.txt is being tracked.
+   It is not being tracked right now because it was only copied over and not pushed.
+13)"git add symmetry txt" commits just the named file, "git add . " commits all 
+   files.
+14)Yes, since the files is staged, git is tracking it. To unstage the file you call 
+  "git reset symmetry.txt"
+15)git commit -m "commiting symmetry.txt"
+16)The command  "git push origin main"  (or master depending  the device you have)
+   would push it to the remote repository. We should push to main because
+   we have not witched or created any other branch.
+17)git branch applied_math
+18)git checkout applied_math
+19)To push everything to the remote repository you would call: 
+   "git add . "
+   "git commit -m "mecanics facts"
+   (or any other comment you want to make)
+   "git push origin applied_math"
+   If you switched branches before pushing git doesn’t understand what you want
+   saved in specific locations
+20)"git status" will list all your branches. The branch you are 
+   currently on will be highlighted in green.
+21)"git checkout main" will return you to the original branch (or master,
+   or whatever your original branch is named, depending on your device)
+22)git merge main 
+   (or master depending on the device)
