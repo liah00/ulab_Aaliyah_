@@ -1,5 +1,6 @@
 1)pwd
-2)you should use "ls". It would list patterns.txt and symmetry.py
+2)you should use "ls", or "ls -a" if you want to see hidden files.
+  It would list patterns.txt and symmetry.py
 3)nano patterns.txt
 4)cat patterns.txt
 5)diff patterns.txt symmetry.txt
@@ -18,7 +19,7 @@
 15)git commit -m "commiting symmetry.txt"
 16)The command  "git push origin main"  (or master depending  the device you have)
    would push it to the remote repository. We should push to main because
-   we have not witched or created any other branch.
+   we have not switched or created any other branch.
 17)git branch applied_math
 18)git checkout applied_math
 19)To push everything to the remote repository you would call: 
